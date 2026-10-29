@@ -1,0 +1,14 @@
+# Installed by the package manager from package.json dependencies.
+node_modules/
+
+# Build/publish artifacts.
+*.tgz
+*.log
+
+# Editor / OS noise.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# The vocabulary is NOT ignored: assets/ must be committed, it is not on npm.

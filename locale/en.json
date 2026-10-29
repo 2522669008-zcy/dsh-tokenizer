@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Token Counter",
+    "description": "Shows how many tokens the composer draft actually has, with green/amber/red hints. The vocabulary ships with the plugin, so it works offline."
+  }
+}

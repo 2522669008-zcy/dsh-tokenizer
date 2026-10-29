@@ -1,0 +1,7 @@
+# dsh-tokenizer bundle patch: mounts the plugin into a test profile.
+# The row id can be anything unique; the name must match the exported cordis name.
+- insert:
+    - id: dsh-tokenizer
+      name: 'dsh-tokenizer'
+      config:
+        tokenizerPath: 'C:/Users/Lenovo/Downloads/deepseek_v3_tokenizer/deepseek_v3_tokenizer/tokenizer.json'
