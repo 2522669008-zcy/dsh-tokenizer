@@ -56,21 +56,24 @@
 
 ## 安装
 
-从 npm（发布后）：
+**从 GitHub（当前可用）：**
 
 ```sh
-dsh plugin --profile <profile> add dsh-tokenizer
+dsh plugin --profile <profile> add https://github.com/2522669008-zcy/dsh-tokenizer
 ```
 
-从本地目录 / GitHub：
+**从本地目录：**
 
 ```sh
-dsh plugin --profile <profile> add F:\dsh-workspace\dsh-tokenizer-v4
-dsh plugin --profile <profile> add https://github.com/<you>/dsh-tokenizer
+dsh plugin --profile <profile> add <本仓库的绝对路径>
 ```
 
 两种方式都会按 `package.json` 的 `dependencies` 自动安装依赖；仓库里没有 `node_modules`
 是正常的。确认 profile 的 `dsh.profile.bundles` 里有 `dsh-tokenizer`。
+
+> npm 上还没有发布（`dsh-tokenizer` 这个名字仍空着）。发布之后才能用
+> `dsh plugin --profile <profile> add dsh-tokenizer`；`package.json` 里已经预置了
+> `publishConfig`，指向官方源。
 
 装完刷新页面即可（客户端改动只需刷新，不用重启应用）。
 
