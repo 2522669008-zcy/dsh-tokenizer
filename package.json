@@ -30,7 +30,8 @@
     "deepseek-harness",
     "deepseek",
     "tokenizer",
-    "token-counter"
+    "token-counter",
+    "personal-use"
   ],
   "dsh": {
     "bundle": {
