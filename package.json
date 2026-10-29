@@ -1,7 +1,7 @@
 {
   "name": "dsh-tokenizer",
   "version": "0.2.0",
-  "description": "DeepSeek token counter for the DSH composer: exact token counts from the official tokenizer.json bundled in this package, served over a local route.",
+  "description": "DeepSeek token counter for the DSH composer: token counts from the official tokenizer.json bundled in this package, served over a local route.",
   "private": false,
   "type": "module",
   "main": "lib/index.js",
