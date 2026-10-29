@@ -19,6 +19,7 @@
     "assets/tokenizer_config.json",
     "locale/*.json",
     "icon.svg",
+    "docs/preview.png",
     "cordis.patch.yml",
     "README.md",
     "LICENSE"
